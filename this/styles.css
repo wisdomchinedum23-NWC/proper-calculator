@@ -16,9 +16,8 @@ body{
     background-color: rgb(39, 37, 37);
     height: 350px;
     width: 333px;
+    max-width: 95%;
     border-radius: 6px;
-    border: none;
-    outline: none;
     cursor: default;
 }
 
@@ -63,4 +62,28 @@ body{
 #equal{
     width: 152px;
     height: 40px;
+}
+
+@media (max-width:768px) {
+.container{
+    max-width: 100%;
+}
+#display{
+    max-width: 100%;
+}
+.btn-con{
+    max-width: 100%;
+}
+}
+
+@media (max-width:960px) {
+.container{
+    max-width: 100%;
+}
+#display{
+    max-width: 100%;
+}
+.btn-con{
+    max-width: 100%;
+}
 }
